@@ -32,6 +32,7 @@ It describes the directory structure we want to create, and where each of our te
 will generate code.
 
 The config file works on 2 top-level objects:
+
 1. ``directories`` - a list of directories to create.
 2. ``templates`` - a dict of templates to use, and where to use them. The key is the
 name of the template, and the value is the path at which we want to create a file from it.
